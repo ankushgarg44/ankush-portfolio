@@ -35,6 +35,6 @@ The production output is in `dist/`. Deploy that directory to any static host. N
 - Browser metadata: `index.html`
 - Published static assets: `site-public/` (resume, favicon, and social icons)
 
-Vite only copies `site-public/` into production builds. Unused starter-template source and assets remain local for reference; `.gitignore` keeps them out of a new GitHub repository.
+Vite only copies `site-public/` into production builds. Unused starter-template source, media, and the old Bun lockfile have been removed from this codebase.
 
 The website began from an MIT-licensed portfolio template. The original copyright notice is preserved in `LICENSE`; the live design and portfolio content have been rebuilt for Ankush.

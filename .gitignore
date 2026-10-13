@@ -29,13 +29,3 @@ dist-ssr
 
 # Local Netlify folder
 .netlify
-
-# Unused files from the starter template; retained locally but not needed
-# by this portfolio or its production build.
-/public/
-/src/components/
-/src/sections/
-/src/constants/
-/src/lib/
-/.github/images/
-/bun.lockb

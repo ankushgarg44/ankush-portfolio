@@ -25,7 +25,7 @@ export default tseslint.config(
       },
     },
   },
-  { ignores: ["dist", "public", "src/components", "src/sections", "src/constants", "src/lib"] },
+  { ignores: ["dist"] },
   {
     extends: [
       js.configs.recommended,
