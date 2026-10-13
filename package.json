@@ -1,0 +1,49 @@
+{
+  "name": "ankush-garg-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check src/App.tsx src/main.tsx src/index.css index.html vite.config.ts",
+    "format:fix": "prettier --write src/App.tsx src/main.tsx src/index.css index.html vite.config.ts"
+  },
+  "author": {
+    "name": "Ankush Garg",
+    "email": "ankushgarg7868@gmail.com",
+    "url": "https://github.com/ankushgarg44"
+  },
+  "description": "Personal portfolio of Ankush Garg, software developer.",
+  "keywords": [
+    "react",
+    "portfolio",
+    "typescript",
+    "software-development",
+    "ai-engineering"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^1.22.0",
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.2"
+  }
+}

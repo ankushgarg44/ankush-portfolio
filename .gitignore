@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# environments
+.env.local
+
+# Local Netlify folder
+.netlify
+
+# Unused files from the starter template; retained locally but not needed
+# by this portfolio or its production build.
+/public/
+/src/components/
+/src/sections/
+/src/constants/
+/src/lib/
+/.github/images/
+/bun.lockb
